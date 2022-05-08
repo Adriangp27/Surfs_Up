@@ -1,6 +1,5 @@
 # Settig up Database and Flask File
 # Importing Dependencies
-from flask import Flask, jsonify
 import datetime as dt
 import numpy as np
 import pandas as pd
@@ -8,12 +7,14 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
+from flask import Flask, jsonify
 
-# Creating Flask Routes
-app = Flask(__name__)
+#------------------------------------------------
+# Setting up Database
+#------------------------------------------------
 
 # Creating Database engine
-engine = create_engine("sqlite:///hawaii.sqlite")
+engine = create_engine("sqlite:///hawaii.sqlite", connect_args={"check_same_thread": False})
 
 # Reflecting Database
 Base = automap_base()
@@ -26,7 +27,9 @@ Station = Base.classes.station
 # Creating Session Link from Python to Database
 session = Session(engine)
 
+#----------------------------------------------
 # Set up Flask
+#----------------------------------------------
 app = Flask(__name__)
 
 
