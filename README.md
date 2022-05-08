@@ -15,7 +15,7 @@ The client is looking for a weather analysis to determine if the new Surf and Sh
 
 •	Software: Python 3.9.7, Anaconda 2021.03, Jupyter Notebook 6.4.5,  VS Code version 1.67.0
 
-## Results!
+## Results
 
 ![June_Temps](https://user-images.githubusercontent.com/99752443/167279683-2e3f783a-3d53-4410-a0cf-a0120542ba6c.png)
 
