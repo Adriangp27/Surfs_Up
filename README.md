@@ -17,11 +17,10 @@ The client is looking for a weather analysis to determine if the new Surf and Sh
 
 ## Results!
 
-[June_Temps](https://user-images.githubusercontent.com/99752443/167279650-073ca699-9d96-4dfc-9f96-2858b05e132a.png)
+![June_Temps](https://user-images.githubusercontent.com/99752443/167279683-2e3f783a-3d53-4410-a0cf-a0120542ba6c.png)
 
 
-
-[December_Temps](https://user-images.githubusercontent.com/99752443/167279666-a100649e-02e2-4f2a-81ec-3d9cd5595913.png)
+![December_Temps](https://user-images.githubusercontent.com/99752443/167279685-a7fe57d8-9dd9-42ef-8773-37bde33b2d62.png)
 
 
 •	Oahu's summer and winter commence at different intervals, with the average temperature difference between the two opposite months not greatly different at 74 degrees in the summer and 71 degrees in the winter.The median for December's temperature is 71 degrees while the Summer's median is 75 degrees farenheit, it can be safely assumed that although the difference isnt drastic like stated in the first argument, there will be more slower days during the winter especially if half of the time the temperatures fall below 71 degrees.
